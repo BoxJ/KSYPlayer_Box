@@ -8,10 +8,10 @@ Pod::Spec.new do |s|
       LICENSE
   }
   s.homepage     = 'http://v.ksyun.com/doc.html'
-  s.authors      = { 'Jingliang' => 'dzjingliang@163.com' }
+  s.authors      = { 'Jingliang' => '251568705@qq.com' }
   s.summary      = 'KSYPlayer_Box sdk manages the playback of a movie or live streaming.'
   s.description  = <<-DESC
-   			 KSYPlayer_Box 是一个金山云播放器适配
+   			 KSYPlayer_Box 是一个金山云播放器适配 该项目他们公司已经废弃 Box发布到pod废弃了老的 stdc++ 来方便开发者使用
   			DESC
   s.platform     = :ios, '7.0'
   s.requires_arc = true
