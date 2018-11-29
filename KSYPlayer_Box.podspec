@@ -8,11 +8,10 @@ Pod::Spec.new do |spec|
       LICENSE
   }
   spec.homepage     = 'http://v.ksyun.com/doc.html'
-  spec.authors      = { 'FanpingZeng' => 'dzjingliang@163.com' }
-  spec.summary      = 'KSYMediaPlayer_iOS sdk manages the playback of a movie or live streaming.'
+  spec.authors      = { 'Jingliang' => 'dzjingliang@163.com' }
+  spec.summary      = 'KSYPlayer_Box sdk manages the playback of a movie or live streaming.'
   spec.description  = <<-DESC
-    KSYUN Live Streaming player SDK, upporting RTMP HTTP-FLV HLS protocol, Living delay less than 2 or 3 seconds.
-    KSYMediaPlayer_iOS.framework is a static framework.
+    KSYPlayer_Box 是一个金山云播放器适配
   DESC
   spec.platform     = :ios, '7.0'
   spec.requires_arc = true
