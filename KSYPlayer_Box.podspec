@@ -11,15 +11,15 @@ Pod::Spec.new do |spec|
   spec.authors      = { 'Jingliang' => 'dzjingliang@163.com' }
   spec.summary      = 'KSYPlayer_Box sdk manages the playback of a movie or live streaming.'
   spec.description  = <<-DESC
-    KSYPlayer_Box 是一个金山云播放器适配
-  DESC
+   			 KSYPlayer_Box 是一个金山云播放器适配
+  			DESC
   spec.platform     = :ios, '7.0'
   spec.requires_arc = true
   spec.frameworks   = 'VideoToolbox'
   spec.ios.library = 'z', 'iconv', 'c++', 'bz2'
   spec.source = {
 	  :git => 'https://github.com/dzliangjing/KSYPlayer_Box.git', 
-	  :tag => 'v'+spec.version.to_s
+	  :tag => s.version
   }
  
   spec.default_subspec = 'KSYMediaPlayer_live'
